@@ -30,6 +30,8 @@ func _ready():
 		_gc = get_tree().connect("connection_failed", self, "_client_connect_failed")
 		_gc = get_tree().connect("connected_to_server", self, "_client_connect_success")
 
+
+func setup_network_peer():
 	if USE_WEBSOCKETS:
 		_setup_network_peer_as_ws()
 	else:
