@@ -111,7 +111,7 @@ _global_script_class_icons={
 [application]
 
 config/name="omgd-godot3-dedicated-nakama3-example"
-run/main_scene="res://Authentication/Authentication.tscn"
+run/main_scene="res://RootScenes/AppStart.tscn"
 config/icon="res://icon.png"
 
 [autoload]

@@ -10,6 +10,7 @@ var user_ids: Array = []
 
 
 func _ready():
+	ServerManager.setup_network_peer()
 	var _gc # NOTE: avoiding code warnings with a dummy var
 
 	if ServerManager.is_server():
