@@ -1,5 +1,5 @@
 omgd:
-  name: godot3-dedicated-nakama3-example
+  name: godot3-dedicated-nakama3
   game:
     targets:
       - build-service: build-web
